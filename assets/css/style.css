@@ -3183,12 +3183,12 @@ hr {
   background-image: -moz-linear-gradient(0deg, #24c0f1 0%, #4c9afe 100%);
   background-image: -webkit-linear-gradient(0deg, #24c0f1 0%, #4c9afe 100%);
   background-image: -ms-linear-gradient(0deg, #24c0f1 0%, #4c9afe 100%);
-  padding: 172px 103px 104px 111px;
+  padding: 100px 103px 98px 111px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .department_area .dept_main_info .dept_info {
-    padding: 78px 103px 52px 111px;
+    padding: 38px 80px 30px 80px;
   }
 }
 
