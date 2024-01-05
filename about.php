@@ -74,15 +74,15 @@
                                 Director officiating in MIT
                                 campus.</p>
                             <div class="about-btn1 mb-30">
-                                <a href="about.html" class="btn about-btn">Doctors Schedules.<i
+                                <a href="schedule.php" class="btn about-btn">Doctors Schedules.<i
                                         class="ti-arrow-right"></i></a>
                             </div>
                             <div class="about-btn1 mb-30">
-                                <a href="about.html" class="btn about-btn2">Book Appointments<i
+                                <a href="healthCare" class="btn about-btn2">Book Appointments<i
                                         class="ti-arrow-right"></i></a>
                             </div>
                             <div class="about-btn1 mb-30">
-                                <a href="department.html" class="btn about-btn2">Facilities available<i
+                                <a href="facility.php" class="btn about-btn2">Facilities available<i
                                         class="ti-arrow-right"></i></a>
                             </div>
                         </div>

@@ -96,7 +96,7 @@
                                 <img src="assets/img/gallery/blog1.png" alt="">
                             </div>
                             <div class="blogs-cap">
-                                <h4><a href="blog_details.html">Group medical insurance</a></h4>
+                                <h4><a href="group_medicine.php">Group medical insurance</a></h4>
                                 <a href="group_medicine.php" class="read-more1">Read more</a>
                             </div>
                         </div>
@@ -107,9 +107,11 @@
                                 <img src="assets/img/gallery/blog2.png" alt="">
                             </div>
                             <div class="blogs-cap">
-                                <h4><a href="">Physiotherapy facilities
-                                    </a></h4>
-                                <a href="blog_details.html" class="read-more1">Read more</a>
+                                <h4>
+                                    <a href="physiotherapy.php">Physiotherapy facilities
+                                    </a>
+                                </h4>
+                                <a href="physiotherapy.php" class="read-more1">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -119,8 +121,8 @@
                                 <img src="assets/img/gallery/blog3.png" alt="">
                             </div>
                             <div class="blogs-cap">
-                                <h4><a href="service_3.html">Emergency services</a></h4>
-                                <a href="service_3.html" class="read-more1">Read more</a>
+                                <h4><a href="general_emergency_services.phpl">Emergency services</a></h4>
+                                <a href="general_emergency_services.php" class="read-more1">Read more</a>
                             </div>
                         </div>
                     </div>
