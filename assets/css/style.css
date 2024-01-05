@@ -2129,41 +2129,41 @@ hr {
 
 .section-padding2 {
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .section-padding2 {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-padding2 {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-padding2 {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .section-padding2 {
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
   }
 }
 
 @media (max-width: 575px) {
   .section-padding2 {
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
   }
 }
 
@@ -7141,6 +7141,20 @@ del {
   .about-image {
     height: 200px;
   }
+}
+
+.nav-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center !important;
+  margin-top: 10px;
+}
+
+.au-logo {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
 }
 
 .tablet-logo {
