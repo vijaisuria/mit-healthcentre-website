@@ -18,7 +18,7 @@
                     <div class="col-xl-8 col-lg-10 col-md-10">
                         <div class="container">
                             <div class="nav-title">
-                                <h1>HEALTH CENTRE <br> MADRAS INSTITUTE OF TECHNOLOGY</h1>
+                                <h2>HEALTH CENTRE, MADRAS INSTITUTE OF TECHNOLOGY</h2>
                             </div>
                         </div>
                         <div class="menu-main d-flex align-items-center justify-content-center">
