@@ -6320,8 +6320,12 @@ del {
   width: 19.74%;
 }
 
+.progress-table .phone {
+  width: 10%;
+}
+
 .progress-table .percentage {
-  width: 40.36%;
+  width: 30.36%;
   padding-right: 50px;
 }
 
@@ -6332,7 +6336,8 @@ del {
 .progress-table .table-head .serial,
 .progress-table .table-head .country,
 .progress-table .table-head .visit,
-.progress-table .table-head .percentage {
+.progress-table .table-head .percentage,
+.progress-table .table-head .phone {
   color: #415094;
   line-height: 40px;
   text-transform: uppercase;
