@@ -24,107 +24,17 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <style>
-        .nav-title {
-            font-size: 20px;
-            font-weight: 600;
-            color: #fff;
-            text-align: center;
-            margin-top: 10px;
-        }
-
-        .au-logo {
-            width: 90px;
-            height: 90px;
-            object-fit: contain;
-        }
-    </style>
 </head>
 
 <body>
-    <!-- ? Preloader Start -->
-    <div id="preloader-active">
-        <div class="preloader d-flex align-items-center justify-content-center">
-            <div class="preloader-inner position-relative">
-                <div class="preloader-circle"></div>
-                <div class="preloader-img pere-text">
-                    <img src="assets/img/logo/loder.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Preloader Start -->
-    <header>
-        <!--? Header Start -->
-        <div class="header-area">
-            <div class="main-header header-sticky">
-                <div class="container-fluid">
+    <?php
+    include 'includes/preloader.php'
+        ?>
 
-                    <div class="row">
-                        <!-- Logo -->
-                        <div class="col-xl-2 col-lg-1 col-md-1">
-                            <div class="logo">
-                                <a href="index.html"><img src="assets/img/logo/au.png" class="desktop-logo" alt=""></a>
-                                <!-- Desktop icon-->
-                                <a href="index.html"><img src="assets/img/logo/mit-hc-logo-tab.png" class="au-logo"
-                                        alt=""></a> <!-- Mobile icon-->
-                                <a href="index.html"><img src="assets/img/logo/au.png" class="tablet-logo" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="col-xl-8 col-lg-10 col-md-10">
-                            <div class="container">
-                                <div class="nav-title">
-                                    <h1>HEALTH CENTRE, MADRAS INSTITUTE OF TECHNOLOGY</h1>
-                                </div>
-                            </div>
-                            <div class="menu-main d-flex align-items-center justify-content-center">
-                                <!-- Main-menu -->
-                                <div class="main-menu f-right d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a href="doctor.html">Staffs</a></li>
-                                            <li><a href="facility.html">Services</a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.html">Facilities</a></li>
-                                                    <li><a href="blog_details.html">Eqiupments</a></li>
-                                                    <li><a href="blog.html">Doctor Schedules</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="blog.html">Blog</a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.html">Gallery</a></li>
-                                                    <li><a href="blog_details.html">Recent Events</a></li>
-                                                    <li><a href="blog.html">Magazines</a></li>
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="blog_details.html">Blog Details</a></li>
-                                                    <li><a href="elements.html">Element</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="#" class="btn header-btn text-white">HealthCare+</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-1 col-md-1">
-                            <div class="logo" style="float: right;">
-                                <a href="index.html"><img src="assets/img/logo/mit-logo.png" class="desktop-logo"
-                                        alt=""></a>
-                            </div>
-                        </div>
-                        <!-- Mobile Menu -->
-                        <div class="col-12">
-                            <div class="mobile_menu d-block d-lg-none"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Header End -->
-    </header>
+    <?php
+    include 'includes/header.php'
+        ?>
+
     <main>
         <!--? slider Area Start-->
         <div class="slider-area position-relative">
@@ -591,8 +501,7 @@
                 </div>
             </div>
         </div>
-        <!-- gallery Products End -->
-        <!--? Blog start -->
+
         <div class="home_blog-area section-padding30">
             <div class="container">
                 <div class="row justify-content-sm-center">
@@ -653,114 +562,24 @@
                 </div>
             </div>
         </div>
-        <!-- Blog End -->
+
     </main>
-    <footer>
-        <!--? Footer Start-->
-        <div class="footer-area section-bg" data-background="assets/img/gallery/footer_bg.jpg">
-            <div class="container">
-                <div class="footer-top footer-padding">
-                    <div class="row d-flex justify-content-between">
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-5">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <h4>More Links</h4>
-                                    <ul>
-                                        <li><a href="index.html" target="_blank">Home</a></li>
-                                        <li><a href="event.html" target="_blank">Events</a></li>
-                                        <li><a href="gallery.html" target="_blank">Gallery</a></li>
-                                        <li><a href="feedback.php" target="_blank">Feedback</a></li>
 
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+    <?php
+    include 'includes/footer.php'
+        ?>
 
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-5">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <h4>Quick Links</h4>
-                                    <div class="footer-pera">
-                                        <ul>
-                                            <li><a href="https://annauniv.edu/" target="_blank">Anna University</a></li>
-                                            <li><a href="https://www.mitindia.edu/en/" target="_blank">MIT</a></li>
-                                            <li><a href="http://www.health-centre.mitindia.edu/healthCare/"
-                                                    target="_blank">
-                                                    Automation Software</a></li>
-                                            <li><a href="https://www.auegov.ac.in/" target="_blank">Centre for
-                                                    e-Governance <span>(C-eGov)</span></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-number mb-50">
-                                    <h4><span>044 </span>2251 6193</h4>
-                                    <p>healthcentremit@gmail.com</p>
-                                    <h4 style="font-weight: 900; font-size: 2.5rem;">24/7
-                                        Ambulance:
-                                        <span style="color: aliceblue;">9498419967</span>
-                                    </h4>
-                                </div>
-                                <div class="footer-tittle">
-                                    <h4>Address</h4>
-                                </div>
-                                <div class="footer-pera">
-                                    <p class="info1">Dr. V. P Jayachitra <br>
-                                        Deputy Director, Health Centre,
-                                        Madras Institute of Technology Campus,Anna University
-                                        Chromepet, Chennai,
-                                        Tamil Nadu 600044,
-                                        India.
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-bottom">
-                    <div class="row d-flex justify-content-between align-items-center">
-                        <div class="col-xl-9 col-lg-8">
-                            <div class="footer-copy-right">
-                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                    Copyright &copy;
-                                    2023 All rights reserved |
-                                    Developed with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="team.html"
-                                        target="_blank">MIT Web Team</a>
-                                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4">
-                            <!-- Footer Social -->
-                            <div class="footer-social f-right">
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fas fa-globe"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer End-->
-    </footer>
     <!-- Scroll Up -->
     <div id="back-top">
         <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
     </div>
 
     <!-- JS here -->
-
     <script src="./assets/js/vendor/modernizr-3.5.0.min.js"> </script>
     <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
     <script src="./assets/js/popper.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
+
     <!-- Jquery Mobile Menu -->
     <script src="./assets/js/jquery.slicknav.min.js"></script>
 
@@ -772,8 +591,6 @@
     <script src="./assets/js/animated.headline.js"></script>
     <script src="./assets/js/jquery.magnific-popup.js"></script>
 
-    <!-- Date Picker -->
-    <script src="./assets/js/gijgo.min.js"></script>
     <!-- Nice-select, sticky -->
     <script src="./assets/js/jquery.nice-select.min.js"></script>
     <script src="./assets/js/jquery.sticky.js"></script>
@@ -782,6 +599,7 @@
     <script src="./assets/js/jquery.counterup.min.js"></script>
     <script src="./assets/js/waypoints.min.js"></script>
     <script src="./assets/js/jquery.countdown.min.js"></script>
+
     <!-- contact js -->
     <script src="./assets/js/contact.js"></script>
     <script src="./assets/js/jquery.form.js"></script>

@@ -24,65 +24,15 @@
 
 <body>
    <!--? Preloader Start -->
-   <div id="preloader-active">
-      <div class="preloader d-flex align-items-center justify-content-center">
-         <div class="preloader-inner position-relative">
-            <div class="preloader-circle"></div>
-            <div class="preloader-img pere-text">
-               <img src="assets/img/logo/loder.png" alt="">
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- Preloader Start -->
-   <header>
-      <!--? Header Start -->
-      <div class="header-area">
-         <div class="main-header header-sticky">
-            <div class="container-fluid">
-               <div class="row align-items-center">
-                  <!-- Logo -->
-                  <div class="col-xl-2 col-lg-2 col-md-1">
-                     <div class="logo">
-                        <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
-                     </div>
-                  </div>
-                  <div class="col-xl-10 col-lg-10 col-md-10">
-                     <div class="menu-main d-flex align-items-center justify-content-end">
-                        <!-- Main-menu -->
-                        <div class="main-menu f-right d-none d-lg-block">
-                           <nav>
-                              <ul id="navigation">
-                                 <li><a href="index.html">Home</a></li>
-                                 <li><a href="about.html">About</a></li>
-                                 <li><a href="doctor.html">Doctors</a></li>
-                                 <li><a href="facility.html">Department</a></li>
-                                 <li><a href="blog.html">Blog</a>
-                                    <ul class="submenu">
-                                       <li><a href="blog.html">Blog</a></li>
-                                       <li><a href="blog_details.html">Blog Details</a></li>
-                                       <li><a href="elements.html">Element</a></li>
-                                    </ul>
-                                 </li>
-                                 <li><a href="contact.html">Contact</a></li>
-                              </ul>
-                           </nav>
-                        </div>
-                        <div class="header-right-btn f-right d-none d-lg-block ml-30">
-                           <a href="#" class="btn header-btn">01654.066.456</a>
-                        </div>
-                     </div>
-                  </div>
-                  <!-- Mobile Menu -->
-                  <div class="col-12">
-                     <div class="mobile_menu d-block d-lg-none"></div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- Header End -->
-   </header>
+   <?php
+   include 'includes/preloader.php';
+   ?>
+
+   <!-- Header Start -->
+   <?php
+   include 'includes/header.php';
+   ?>
+
    <main>
       <!--? Hero Start -->
       <div class="slider-area2">
@@ -113,14 +63,18 @@
                         </h2>
 
                         <p class="excert">
-                           All the students and staffs are covered with group Medical Insurance through New India Assurance Co.Ltd. 
-                           The students and Anna university permanent employees and their dependents can avail the cashless inpatient medical treatment in a number of listed Hospitals in case of any emergency. 
-                           They can avail this facility throughout the country during their service/ study period. 
+                           All the students and staffs are covered with group Medical Insurance through New India
+                           Assurance Co.Ltd.
+                           The students and Anna university permanent employees and their dependents can avail the
+                           cashless inpatient medical treatment in a number of listed Hospitals in case of any
+                           emergency.
+                           They can avail this facility throughout the country during their service/ study period.
                            For this purpose a third party administrative card is provided for every member.
                         </p>
                         <div class="quote-wrapper">
                            <div class="quotes">
-                              "The great medical facilities are a relief for the parents, too, who don't have to think about caring for their young ones on their own for a weekend. 
+                              "The great medical facilities are a relief for the parents, too, who don't have to think
+                              about caring for their young ones on their own for a weekend.
                               They have a great time."
                            </div>
                         </div>
@@ -142,10 +96,11 @@
                            <li>Expenditure to be reimbursed in case of treatment in other hospitals.</li>
                            <li>Pre and Post hospitalisation for relevant illness.</li>
                            <li>Accident Policy Rs.50,000/- in the event of death.</li>
-                           <li>Permanent Total Disability / Partial disability cover for student due to accident 
-                              (Partial disability - Reimbursement based on the percentage of disability) - Rs.1.00 lakh.</li>
+                           <li>Permanent Total Disability / Partial disability cover for student due to accident
+                              (Partial disability - Reimbursement based on the percentage of disability) - Rs.1.00 lakh.
+                           </li>
                            <li>Medical expenses due to any accident (floating policy) -
-                              <ul class = "ordered-list-alpha">
+                              <ul class="ordered-list-alpha">
                                  <li>Rs.2.00 lakhs for 10 students (each)</li>
                                  <li>Rs.1.00 lakh for 20 students (each) and</li>
                                  <li>Rs.50,000/- for remaining students (each)</li>
@@ -153,7 +108,8 @@
                            </li>
                            <li>Death of Earning Parent / Guardian - Rs.1.00 lakh.</li>
                            <li>E-ID / ID issued to all the students.</li>
-                           <li>All students of University departments of CEG, ACT, MIT and SAP Campus are enrolled in this at Rs.137/- for the academic year 2020-21.</li>
+                           <li>All students of University departments of CEG, ACT, MIT and SAP Campus are enrolled in
+                              this at Rs.137/- for the academic year 2020-21.</li>
                            <li>About 100 - 150 students benefited for treatment every year.</li>
                         </ol>
                      </div>
