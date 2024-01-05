@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title> Medical HTML-5 Template </title>
+    <title> MIT Healthcenter </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -77,12 +77,11 @@
             </div>
         </div>
         <!-- Hero End -->
-        <!--? Blog start -->
+
         <div class="home_blog-area section-padding2">
             <div class="container">
                 <div class="row justify-content-sm-center">
                     <div class="cl-xl-7 col-lg-8 col-md-10">
-                        <!-- Section Tittle -->
                         <div class="section-tittle text-center mb-70">
                             <span>Facilities</span>
                             <h2>Services & Facilities Available</h2>
@@ -108,6 +107,10 @@
                             </div>
                             <div class="blogs-cap">
                                 <h4>
+                                    <!-- <div class="date-info">
+                                        <span>Health</span>
+                                        <p>Nov 30, 2020</p>
+                                    </div> -->
                                     <a href="physiotherapy.php">Physiotherapy facilities
                                     </a>
                                 </h4>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title> Medical HTML-5 Template </title>
+    <title> MIT Healthcenter </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -51,6 +51,7 @@
             </div>
         </div>
         <!-- Hero End -->
+
         <!--? About Start-->
         <div class="about-area section-padding2">
             <div class="container">
@@ -102,6 +103,7 @@
             </div>
         </div>
         <!-- About  End-->
+
         <!--? All startups Start -->
         <div class="container">
             <div class="">
@@ -112,7 +114,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="single-defination">
-                            <h3 class="mb-20">Clinical Test</h3>
+                            <h1 class="mb-20">Clinical Test</h1>
                             <p><strong>Bio Clinical investigations</strong> utilize <strong>Electrocardiography
                                     (ECG)</strong> to assess the heart's electrical activity, aiding in diagnosing and
                                 monitoring cardiovascular conditions.
@@ -122,7 +124,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="single-defination">
-                            <h3 class="mb-20">Paramedical Service</h3>
+                            <h1 class="mb-20">Paramedical Service</h1>
                             <p><strong>Physiotherapy facilities</strong> offer specialized care, employing exercises,
                                 manual therapy, and modalities to improve mobility and alleviate pain.
                                 These centers provide tailored rehabilitation programs, addressing musculoskeletal
@@ -132,7 +134,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="single-defination">
-                            <h3 class="mb-20">Emergency Service</h3>
+                            <h1 class="mb-20">Emergency Service</h1>
                             <p><strong>24/7 ambulance service</strong> is available for the safety of students and staff
                                 in emergencies.
                                 This crucial resource ensures swift medical assistance on campus, promoting a secure
@@ -142,7 +144,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="single-defination">
-                            <h3 class="mb-20">Physical fitness camp</h3>
+                            <h1 class="mb-20">Physical fitness camp</h1>
                             <p><strong>Fitness certificates</strong> are issued for undergraduate and postgraduate
                                 students upon completing health assessments. These certificates affirm their physical
                                 well-being, supporting a holistic approach to student welfare.

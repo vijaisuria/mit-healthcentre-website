@@ -67,10 +67,11 @@
                 <div class="row d-flex justify-content-between align-items-center">
                     <div class="col-xl-9 col-lg-8">
                         <div class="footer-copy-right">
-                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            <p>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                 Copyright &copy;
-                                2023 All rights reserved |
-                                Developed with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="team.html"
+                                2023 All rights reserved |php
+                                Developed with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="team.php"
                                     target="_blank">MIT Web Team</a>
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             </p>

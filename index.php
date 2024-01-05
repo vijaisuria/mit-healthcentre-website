@@ -185,13 +185,13 @@
         </div>
 
         <!--? department_area_start  -->
-        <div class="department_area section-padding2">
+        <div class="department_area pt-5 mb-100">
             <div class="container">
                 <!-- Section Tittle -->
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-tittle text-center mb-100">
-                            <span>Our Specialists</span>
+                            <span>Our Facilities</span>
                             <h2>Our Medical Services</h2>
                         </div>
                     </div>
@@ -202,45 +202,45 @@
                             <!-- Tabs Buttons -->
                             <ul class="nav" id="myTab" role="tablist">
                                 <li class="nav-item">
-                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                                        aria-controls="home" aria-selected="true">
+                                    <a class="nav-link active" id="dentist-tab" data-toggle="tab" href="#dentist"
+                                        role="tab" aria-controls="home" aria-selected="true">
                                         <i class="flaticon-teeth"></i>
                                         <h4>Dentistry</h4>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                    <a class="nav-link" id="diabetes-tab" data-toggle="tab" href="#diabetes" role="tab"
                                         aria-controls="profile" aria-selected="false">
                                         <i class="flaticon-cardiovascular"></i>
-                                        <h4>Cardiology</h4>
+                                        <h4>Diabetology</h4>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                    <a class="nav-link" id="ent-tab" data-toggle="tab" href="#ent" role="tab"
                                         aria-controls="contact" aria-selected="false">
                                         <i class="flaticon-ear"></i>
                                         <h4>ENT Specialists</h4>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="Astrology-tab" data-toggle="tab" href="#Astrology"
-                                        role="tab" aria-controls="contact" aria-selected="false">
+                                    <a class="nav-link" id="ortho-tab" data-toggle="tab" href="#ortho" role="tab"
+                                        aria-controls="contact" aria-selected="false">
                                         <i class="flaticon-bone"></i>
-                                        <h4>Astrology</h4>
+                                        <h4>Orthopedician</h4>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="Neuroanatomy-tab" data-toggle="tab" href="#Neuroanatomy"
-                                        role="tab" aria-controls="contact" aria-selected="false">
+                                    <a class="nav-link" id="derma-tab" data-toggle="tab" href="#derma" role="tab"
+                                        aria-controls="contact" aria-selected="false">
                                         <i class="flaticon-lung"></i>
-                                        <h4>Neuroanatomy</h4>
+                                        <h4>Dermatology</h4>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="Blood-tab" data-toggle="tab" href="#Blood" role="tab"
+                                    <a class="nav-link" id="opt-tab" data-toggle="tab" href="#opt" role="tab"
                                         aria-controls="contact" aria-selected="false">
                                         <i class="flaticon-cell"></i>
-                                        <h4>Blood Screening</h4>
+                                        <h4>Ophthalmology</h4>
                                     </a>
                                 </li>
                             </ul>
@@ -249,16 +249,18 @@
                 </div>
                 <div class="dept_main_info white-bg">
                     <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="tab-pane fade show active" id="dentist" role="tabpanel"
+                            aria-labelledby="dentist-tab">
                             <!-- single_content  -->
                             <div class="row align-items-center no-gutters">
                                 <div class="col-lg-7">
                                     <div class="dept_info">
-                                        <h3>Dentist with surgical mask holding <br> scaler near patient</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                                            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
-                                            facilisis. </p>
+                                        <h3>Student-Centric Dental Excellence <br>Schedule Your Appointment Today!</h3>
+                                        <p>Experience top-notch dental care at our college health center. Our skilled
+                                            professionals provide comprehensive dental services, including cleanings,
+                                            exams, and preventive care. With state-of-the-art facilities, we prioritize
+                                            your oral health, ensuring a bright smile for every student. Schedule your
+                                            appointment for personalized, student-friendly dental care today.</p>
                                         <a href="#" class="dep-btn">Appointment<i class="ti-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -270,16 +272,17 @@
                             </div>
                             <!-- single_content  -->
                         </div>
-                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="tab-pane fade" id="diabetes" role="tabpanel" aria-labelledby="diabetes-tab">
                             <!-- single_content  -->
                             <div class="row align-items-center no-gutters">
                                 <div class="col-lg-7">
                                     <div class="dept_info">
-                                        <h3>Dentist with surgical mask holding <br> scaler near patient</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                                            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
-                                            facilisis. </p>
+                                        <h3>Personalized Diabetes Care <br> for Student Well-being</h3>
+                                        <p>At our college health center, we offer specialized diabetes care tailored to
+                                            students' needs. Our experienced team provides comprehensive services, from
+                                            regular check-ups to personalized management plans. Embrace a supportive
+                                            environment focused on optimizing your well-being. Take proactive steps
+                                            towards a healthy, balanced life with our diabetes facilities.</p>
                                         <a href="#" class="dep-btn">Appointment<i class="ti-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -291,16 +294,18 @@
                             </div>
                             <!-- single_content  -->
                         </div>
-                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class="tab-pane fade" id="ent" role="tabpanel" aria-labelledby="ent-tab">
                             <!-- single_content  -->
                             <div class="row align-items-center no-gutters">
                                 <div class="col-lg-7">
                                     <div class="dept_info">
-                                        <h3>Dentist with surgical mask holding <br> scaler near patient</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                                            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
-                                            facilisis. </p>
+                                        <h3>Navigate Wellness <br>Unmatched ENT care for students</h3>
+                                        <p>Discover exceptional ENT care at our college health center. Our expert team
+                                            offers comprehensive ear, nose, and throat services, including diagnostics,
+                                            treatment, and surgical options. Experience personalized care in a
+                                            student-friendly environment. Prioritize your health and well-being with our
+                                            state-of-the-art ENT facilities – your path to optimal ear, nose, and throat
+                                            health starts here. </p>
                                         <a href="#" class="dep-btn">Appointment<i class="ti-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -312,16 +317,18 @@
                             </div>
                             <!-- single_content  -->
                         </div>
-                        <div class="tab-pane fade" id="Astrology" role="tabpanel" aria-labelledby="Astrology-tab">
+                        <div class="tab-pane fade" id="ortho" role="tabpanel" aria-labelledby="ortho-tab">
                             <!-- single_content  -->
                             <div class="row align-items-center no-gutters">
                                 <div class="col-lg-7">
                                     <div class="dept_info">
-                                        <h3>Dentist with surgical mask holding <br> scaler near patient</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                                            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
-                                            facilisis. </p>
+                                        <h3>Orthopedic Excellence <br>Personalized Student Welfare</h3>
+                                        <p>Unlock peak physical performance with our college health center's
+                                            cutting-edge orthopedic facilities. Our skilled orthopedic specialists
+                                            provide tailored care, from diagnostics to rehabilitation. Whether treating
+                                            injuries or enhancing athletic performance, trust us for comprehensive
+                                            orthopedic solutions. Elevate your mobility and well-being with our expert
+                                            team and state-of-the-art facilities.</p>
                                         <a href="#" class="dep-btn">Appointment<i class="ti-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -333,16 +340,18 @@
                             </div>
                             <!-- single_content  -->
                         </div>
-                        <div class="tab-pane fade" id="Neuroanatomy" role="tabpanel" aria-labelledby="Neuroanatomy-tab">
+                        <div class="tab-pane fade" id="derma" role="tabpanel" aria-labelledby="derma-tab">
                             <!-- single_content  -->
                             <div class="row align-items-center no-gutters">
                                 <div class="col-lg-7">
                                     <div class="dept_info">
-                                        <h3>Dentist with surgical mask holding <br> scaler near patient</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                                            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
-                                            facilisis. </p>
+                                        <h3>Radiant Skin Awaits <br> Student Dermatology Care</h3>
+                                        <p>Indulge in skincare excellence at our college health center. Our dermatologic
+                                            facilities offer personalized solutions for healthy, radiant skin. From
+                                            routine check-ups to specialized treatments, our experienced dermatologists
+                                            ensure comprehensive care. Step into a world of skincare innovation,
+                                            promoting confidence and well-being for every student. Schedule your
+                                            appointment for skin wellness today.</p>
                                         <a href="#" class="dep-btn">Appointment<i class="ti-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -354,16 +363,18 @@
                             </div>
                             <!-- single_content  -->
                         </div>
-                        <div class="tab-pane fade" id="Blood" role="tabpanel" aria-labelledby="Blood-tab">
+                        <div class="tab-pane fade" id="opt" role="tabpanel" aria-labelledby="opt-tab">
                             <!-- single_content  -->
                             <div class="row align-items-center no-gutters">
                                 <div class="col-lg-7">
                                     <div class="dept_info">
-                                        <h3>Dentist with surgical mask holding <br> scaler near patient</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                            tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-                                            ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
-                                            facilisis. </p>
+                                        <h3>Clear Vision Awaits <br>Ophthalmologic Excellence for Students</h3>
+                                        <p>Elevate your vision care at our college health center's ophthalmologic
+                                            facilities. Our skilled eye care specialists provide comprehensive services,
+                                            from routine exams to advanced treatments. Experience personalized attention
+                                            in a student-friendly environment. Prioritize your eye health and visual
+                                            well-being with our state-of-the-art ophthalmologic facilities. Schedule
+                                            your eye exam today for clear, focused vision.</p>
                                         <a href="#" class="dep-btn">Appointment<i class="ti-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -375,9 +386,9 @@
                             </div>
                             <!-- single_content  -->
                         </div>
+
                     </div>
                 </div>
-
             </div>
         </div>
         <!-- depertment area end  -->
@@ -502,14 +513,13 @@
             </div>
         </div>
 
-        <div class="home_blog-area section-padding30">
+        <div class="home_blog-area section-padding2">
             <div class="container">
                 <div class="row justify-content-sm-center">
                     <div class="cl-xl-7 col-lg-8 col-md-10">
-                        <!-- Section Tittle -->
                         <div class="section-tittle text-center mb-70">
-                            <span>Our recent news</span>
-                            <h2>OurNews From Blog</h2>
+                            <span>Facilities</span>
+                            <h2>Services & Facilities Available</h2>
                         </div>
                     </div>
                 </div>
@@ -520,12 +530,8 @@
                                 <img src="assets/img/gallery/blog1.png" alt="">
                             </div>
                             <div class="blogs-cap">
-                                <div class="date-info">
-                                    <span>Health</span>
-                                    <p>Nov 30, 2020</p>
-                                </div>
-                                <h4><a href="blog_details.html">Amazing Places To Visit In Summer</a></h4>
-                                <a href="blog_details.html" class="read-more1">Read more</a>
+                                <h4><a href="group_medicine.php">Group medical insurance</a></h4>
+                                <a href="group_medicine.php" class="read-more1">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -535,12 +541,15 @@
                                 <img src="assets/img/gallery/blog2.png" alt="">
                             </div>
                             <div class="blogs-cap">
-                                <div class="date-info">
-                                    <span>Checkup</span>
-                                    <p>Nov 30, 2020</p>
-                                </div>
-                                <h4><a href="blog_details.html">Developing Creativithout Losing Visual</a></h4>
-                                <a href="blog_details.html" class="read-more1">Read more</a>
+                                <h4>
+                                    <!-- <div class="date-info">
+                                        <span>Health</span>
+                                        <p>Nov 30, 2020</p>
+                                    </div> -->
+                                    <a href="physiotherapy.php">Physiotherapy facilities
+                                    </a>
+                                </h4>
+                                <a href="physiotherapy.php" class="read-more1">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -550,12 +559,8 @@
                                 <img src="assets/img/gallery/blog3.png" alt="">
                             </div>
                             <div class="blogs-cap">
-                                <div class="date-info">
-                                    <span>Operation</span>
-                                    <p>Nov 30, 2020</p>
-                                </div>
-                                <h4><a href="blog_details.html">Winter Photography Tips from Glenn</a></h4>
-                                <a href="blog_details.html" class="read-more1">Read more</a>
+                                <h4><a href="general_emergency_services.phpl">Emergency services</a></h4>
+                                <a href="general_emergency_services.php" class="read-more1">Read more</a>
                             </div>
                         </div>
                     </div>
