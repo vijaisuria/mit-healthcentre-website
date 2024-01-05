@@ -119,8 +119,8 @@
                                 <img src="assets/img/gallery/blog3.png" alt="">
                             </div>
                             <div class="blogs-cap">
-                                <h4><a href="blog_details.html">Emergency services</a></h4>
-                                <a href="blog_details.html" class="read-more1">Read more</a>
+                                <h4><a href="service_3.html">Emergency services</a></h4>
+                                <a href="service_3.html" class="read-more1">Read more</a>
                             </div>
                         </div>
                     </div>

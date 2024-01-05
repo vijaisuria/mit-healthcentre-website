@@ -56,7 +56,7 @@
                <div class="col-lg-8 posts-list">
                   <div class="single-post">
                      <div class="feature-img">
-                        <img class="img-fluid" src="assets/img/blog/single_blog_1.png" alt="">
+                        <img class="img-fluid" src="assets/img/services/mediclaimCard.jpg" alt="">
                      </div>
                      <div class="blog_details">
                         <h2 style="color: #2d2d2d;">Group Medical Insurance
@@ -170,31 +170,41 @@
                         <h4 class="widget_title" style="color: #2d2d2d;">QUICK LINKS</h4>
                         <ul class="list cat-list">
                            <li>
-                              <a href="#" class="d-flex">
+                              <a href="event.html" class="d-flex">
                                  <p>Events</p>
                               </a>
                            </li>
                            <li>
-                              <a href="#" class="d-flex">
+                              <a href="blog.html" class="d-flex">
                                  <p>Gallery</p>
                               </a>
                            </li>
                            <li>
-                              <a href="#" class="d-flex">
+                              <a href="http://www.health-centre.mitindia.edu/health_centre/Physical_Health-Care_Services.html" class="d-flex">
                                  <p>Sustainable health and well-being</p>
                               </a>
                            </li>
                            <li>
-                              <a href="#" class="d-flex">
+                              <a href="http://www.health-centre.mitindia.edu/health_centre/stat.html" class="d-flex">
                                  <p>Year-wise statistics</p>
                               </a>
                            </li>
                            <li>
-                              <a href="#" class="d-flex">
+                              <a href="contact.html" class="d-flex">
                                  <p>Feedback</p>
                               </a>
                            </li>
                         </ul>
+                     </aside>
+                     <aside class="single_sidebar_widget newsletter_widget">
+                        <h2 class="widget_title">24X7 Ambulance Service</h2>
+                        <p>
+                           Ambulance Service is available at MIT campus for staff and students. <br>
+                           Ph No: 044-2251 6193/9498419967
+                        </p>
+                        <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
+                           onclick="makeCall()" type="submit">Call
+                           now</button>
                      </aside>
                      <aside class="single_sidebar_widget popular_post_widget">
                         <h3 class="widget_title" style="color: #2d2d2d;">Recent Post</h3>
