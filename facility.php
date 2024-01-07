@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title> Medical HTML-5 Template </title>
+    <title> MIT Healthcenter </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -77,12 +77,11 @@
             </div>
         </div>
         <!-- Hero End -->
-        <!--? Blog start -->
+
         <div class="home_blog-area section-padding2">
             <div class="container">
                 <div class="row justify-content-sm-center">
                     <div class="cl-xl-7 col-lg-8 col-md-10">
-                        <!-- Section Tittle -->
                         <div class="section-tittle text-center mb-70">
                             <span>Facilities</span>
                             <h2>Services & Facilities Available</h2>
@@ -96,7 +95,7 @@
                                 <img src="assets/img/gallery/group_med.png" alt="">
                             </div>
                             <div class="blogs-cap">
-                                <h4><a href="blog_details.html">Group medical insurance</a></h4>
+                                <h4><a href="group_medicine.php">Group medical insurance</a></h4>
                                 <a href="group_medicine.php" class="read-more1">Read more</a>
                             </div>
                         </div>
@@ -107,9 +106,15 @@
                                 <img src="assets/img/gallery/physiotherapy.png" alt="">
                             </div>
                             <div class="blogs-cap">
-                                <h4><a href="">Physiotherapy facilities
-                                    </a></h4>
-                                <a href="blog_details.html" class="read-more1">Read more</a>
+                                <h4>
+                                    <!-- <div class="date-info">
+                                        <span>Health</span>
+                                        <p>Nov 30, 2020</p>
+                                    </div> -->
+                                    <a href="physiotherapy.php">Physiotherapy facilities
+                                    </a>
+                                </h4>
+                                <a href="physiotherapy.php" class="read-more1">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -119,8 +124,8 @@
                                 <img src="assets/img/gallery/emergency_serv.png" alt="">
                             </div>
                             <div class="blogs-cap">
-                                <h4><a href="service_3.html">Emergency services</a></h4>
-                                <a href="service_3.html" class="read-more1">Read more</a>
+                                <h4><a href="general_emergency_services.phpl">Emergency services</a></h4>
+                                <a href="general_emergency_services.php" class="read-more1">Read more</a>
                             </div>
                         </div>
                     </div>
