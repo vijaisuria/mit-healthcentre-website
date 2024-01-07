@@ -93,7 +93,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-blogs mb-30">
                             <div class="blog-img">
-                                <img src="assets/img/gallery/blog1.png" alt="">
+                                <img src="assets/img/gallery/group_med.png" alt="">
                             </div>
                             <div class="blogs-cap">
                                 <h4><a href="blog_details.html">Group medical insurance</a></h4>
@@ -104,7 +104,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-blogs mb-30">
                             <div class="blog-img">
-                                <img src="assets/img/gallery/blog2.png" alt="">
+                                <img src="assets/img/gallery/physiotherapy.png" alt="">
                             </div>
                             <div class="blogs-cap">
                                 <h4><a href="">Physiotherapy facilities
@@ -116,7 +116,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-blogs mb-30">
                             <div class="blog-img">
-                                <img src="assets/img/gallery/blog3.png" alt="">
+                                <img src="assets/img/gallery/emergency_serv.png" alt="">
                             </div>
                             <div class="blogs-cap">
                                 <h4><a href="service_3.html">Emergency services</a></h4>
