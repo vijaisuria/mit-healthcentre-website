@@ -28,6 +28,12 @@ Feel free to contribute by forking the repository and creating pull requests for
 
 Enjoy browsing our College Health Centre's website! 🌐✨
 
+## Contributors :technologist:
+
+- [Vijai Suria](https://github.com/vijaisuria)
+- [Roshni](https://github.com/Roshni-Naga)
+
+
 ## Get in Touch
 
 For inquiries or collaborations, connect with me through 📬:
