@@ -1,89 +1,74 @@
-<!DOCTYPE html>
-<!-- Developed by Siva Kishore G-->
-<html lang="en">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="icon" href="https://htmljstemplates.com/static_files/images/favicon.png" />
-  <script src="https://kit.fontawesome.com/dd5559ee21.js" crossorigin="anonymous"></script>
+<style>
+  header {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5rem;
+  }
 
-  <link rel="stylesheet" href="../assets/css/style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  button {
+    color: #343434 !important;
+    outline: none !important;
+  }
 
+  a.nav-link {
+    color: #343434;
+    text-decoration: none;
+    min-width: 80px;
+  }
 
+  a.nav-link.active {
+    color: #000;
+    font-weight: bold
+  }
 
-  <style>
-    a,
-    button {
-      color: #343434 !important;
-      outline: none !important;
+  .head {
+    font-size: 2em
+  }
+
+  #scrollContent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+  }
+
+  #scrollContent>div {
+    display: flex;
+    animation: textScrollEffect 12s infinite linear;
+  }
+
+  @keyframes textScrollEffect {
+    from {
+      transform: translateX(0%);
     }
 
-    a.nav-link {
-      color: #343434;
-      text-decoration: none;
-      min-width: 80px;
+    to {
+      transform: translateX(-50%);
     }
+  }
+</style>
 
-    a.nav-link.active {
-      color: #000;
-      font-weight: bold
-    }
+<header>
 
-    #scrollContent {
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      width: 100%;
-      height: 100%;
-      white-space: nowrap;
-    }
-
-    #scrollContent>div {
-      display: flex;
-      animation: textScrollEffect 12s infinite linear;
-    }
-
-    @keyframes textScrollEffect {
-      from {
-        transform: translateX(0%);
-      }
-
-      to {
-        transform: translateX(-50%);
-      }
-    }
-  </style>
-
-  <title>Daily News</title>
-  <meta name="description" content="A Daily news website navbar template">
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js"
-    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-
-
-</head>
-
-<body>
   <div role="navigation">
     <div class="p-3 bg-light">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-3 col-md-3 d-none d-md-block logo">
-            <img src="../assets/img/logo/au.png" alt="">
+            <img src="assets/img/logo/au.png" alt="">
           </div>
           <div class="col-lg-6 col-md-6 text-center">
-            <div class="display-6">HEALTH CENTRE</div>
-            <div class="text-secondary">MIT campus, Anna University</div>
+            <div class="head">HEALTH CENTRE</div>
+            <div class=" text-secondary">MIT campus, Anna University</div>
           </div>
           <div class="col-lg-3 col-md-3 text-end d-none d-md-block logo">
-            <img src="../assets/img/logo/mit-logo.png" alt="">
+            <img src="assets/img/logo/mit-logo.png" alt="">
           </div>
         </div>
       </div>
@@ -111,11 +96,11 @@
               <li class="nav-item dropdown">
                 <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                   data-bs-toggle="dropdown" aria-expanded="false">Services</a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="facility.php">Facilities</a></li>
-                    <li><a class="dropdown-item" href="equipments.php">Eqiupments</a></li>
-                    <li><a class="dropdown-item" href="schedule.php">Doctor Schedules</a></li>
-                  </ul>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="facility.php">Facilities</a></li>
+                  <li><a class="dropdown-item" href="equipments.php">Eqiupments</a></li>
+                  <li><a class="dropdown-item" href="schedule.php">Doctor Schedules</a></li>
+                </ul>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link mx-2 dropdown-toggle" href="blog.html" id="navbarDropdownMenuLink" role="button"
@@ -146,11 +131,14 @@
       </div>
       <div class="px-1" style="overflow:hidden">
         <div id="scrollContent" class="text-secondary">
-          <div>Register now for our Health Center Automation Software to streamline your health appointments and services!</div>
+          <div>Register now for our Health Center Automation Software to streamline your health
+            appointments
+            and services!</div>
         </div>
       </div>
     </div>
   </div>
-</body>
-
-</html>
+</header>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+  </script>
