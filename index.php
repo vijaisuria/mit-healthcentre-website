@@ -24,6 +24,30 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <style>
+        .extra {
+            margin-left: 510px;
+        }
+
+        @media only screen and (max-width: 1199px) {
+            .extra {
+                margin-left: 400px;
+            }
+        }
+
+        @media only screen and (max-width: 991px) {
+            .extra {
+                margin-left: 246px;
+            }
+        }
+
+        @media only screen and (max-width: 767px) {
+            .extra {
+                margin-left: 0px;
+            }
+        }
+    </style>
+
 </head>
 
 <body>
@@ -32,7 +56,7 @@
         ?>
 
     <?php
-    include 'includes/header.php'
+    include 'includes/navbar.php'
         ?>
 
     <main>
@@ -243,6 +267,15 @@
                                         <h4>Ophthalmology</h4>
                                     </a>
                                 </li>
+                                <li class="nav-item extra">
+                                    <a class="nav-link" id="Physiotherapy-tab" data-toggle="tab" href="#Physio"
+                                        role="tab" aria-controls="contact" aria-selected="false">
+                                        <i class="flaticon-cell"></i>
+                                        <h4>Physiotherapy</h4>
+                                    </a>
+                                </li>
+
+
                             </ul>
                         </div>
                     </div>
@@ -386,7 +419,29 @@
                             </div>
                             <!-- single_content  -->
                         </div>
-
+                        <div class="tab-pane fade" id="Physio" role="tabpanel" aria-labelledby="Physiotherapy-tab">
+                            <!-- single_content  -->
+                            <div class="row align-items-center no-gutters">
+                                <div class="col-lg-7">
+                                    <div class="dept_info">
+                                        <h3>Optimize Wellness <br>Physiotherapy for Active Living</h3>
+                                        <p>Embark on a journey to wellness with our college health center's
+                                            physiotherapy facilities. Our dedicated team of experts offers personalized
+                                            care, rehabilitation, and injury prevention. From chronic pain management to
+                                            recovery after injury, trust our state-of-the-art facilities to optimize
+                                            your physical well-being. Take the first step towards a healthier, more
+                                            active life.</p>
+                                        <a href="#" class="dep-btn">Appointment<i class="ti-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="dept_thumb">
+                                        <img src="assets/img/gallery/department_man.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single_content  -->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -527,7 +582,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-blogs mb-30">
                             <div class="blog-img">
-                                <img src="assets/img/gallery/blog1.png" alt="">
+                                <img src="assets/img/gallery/group_med.png" alt="">
                             </div>
                             <div class="blogs-cap">
                                 <h4><a href="group_medicine.php">Group medical insurance</a></h4>
@@ -538,7 +593,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-blogs mb-30">
                             <div class="blog-img">
-                                <img src="assets/img/gallery/blog2.png" alt="">
+                                <img src="assets/img/gallery/physiotherapy.png" alt="">
                             </div>
                             <div class="blogs-cap">
                                 <h4>
@@ -556,7 +611,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-blogs mb-30">
                             <div class="blog-img">
-                                <img src="assets/img/gallery/blog3.png" alt="">
+                                <img src="assets/img/gallery/emergency_serv.png" alt="">
                             </div>
                             <div class="blogs-cap">
                                 <h4><a href="general_emergency_services.phpl">Emergency services</a></h4>
